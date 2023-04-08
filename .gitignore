@@ -38,3 +38,25 @@ next-env.d.ts
 
 # contentlayer
 .contentlayer
+
+.next/
+# dotenv environment variables file (build for Zeit Now)
+.env
+.env.build
+# Dependency directories
+node_modules/
+
+# Logs
+npm-debug.log*
+report.20201030.194718.11176.0.001.json
+
+package-lock.json
+.DS_Store
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
